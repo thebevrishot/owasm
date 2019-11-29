@@ -1,8 +1,13 @@
 [package]
-name = "bwasm"
+name = "owasm"
 version = "0.1.0"
 authors = ["Band Protocol <connect@bandprotocol.com>"]
 edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/bandprotocol/owasm"
+description = """
+TODO
+"""
 
 [dependencies]
 serde = { version = "1.0.103", features = ["derive"] }
