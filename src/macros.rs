@@ -3,7 +3,7 @@ macro_rules! decl_data {
   (pub struct $data_name:ident {
     $(pub $field_name:ident : $field_type:ty = $field_howto:expr ,)*
   }) => {
-    use crate::core::{Oracle, ShellCmd, execute_with_local_env};
+    use $crate::core::{Oracle, ShellCmd, execute_with_local_env};
 
     #[derive(Debug)]
     pub struct $data_name {
